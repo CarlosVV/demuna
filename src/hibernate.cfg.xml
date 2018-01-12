@@ -1,0 +1,28 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+ "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+  
+     	<mapping class="pe.gob.dmn.model.Demuna"/>
+     	<mapping class="pe.gob.dmn.model.DemunaNivel"/>
+     	<mapping class="pe.gob.dmn.model.Discapacidad"/>
+     	<mapping class="pe.gob.dmn.model.Expediente"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesAfectado"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesCompromiso"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesConciliacione"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesEntrevista"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesInformante"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesMateria"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesSolicitud"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesTransgresor"/>
+     	<mapping class="pe.gob.dmn.model.ExpedientesVerificacion"/>
+     	<mapping class="pe.gob.dmn.model.Location"/>
+     	<mapping class="pe.gob.dmn.model.Materia"/>
+     	<mapping class="pe.gob.dmn.model.Tipoatencion"/>
+     	<mapping class="pe.gob.dmn.model.Usuario"/>
+     	<mapping class="pe.gob.dmn.model.Zona"/>
+     	
+  </session-factory>
+</hibernate-configuration>

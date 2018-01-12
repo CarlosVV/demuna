@@ -1,0 +1,48 @@
+/* CSS Document */
+#imagen {
+	margin:0 auto;
+    width:850px;
+    height:120px;	
+}
+
+#contenedor{
+	margin:0 auto;
+       border:#CCCCCC 1px solid;
+	   width:850px;
+	   height:auto;
+	   padding:10px;
+	   font-family:Verdana;
+}
+#datos{	   
+	   font-size:10pt;	  
+}
+#datosder{
+	   border-bottom:#999999 1px dashed;
+	   font-size:10pt;
+	   padding:5px;
+	   text-align:left;
+}
+#datosizq{
+	   border-bottom:#999999 1px dashed;
+	   font-size:10pt;
+	   padding:5px;
+	   text-align:right;
+}
+
+#datosborde{
+	   border:#CCCCCC 1px solid;
+	   font-size:10pt;
+	   padding:5px;
+	   text-align:left;
+}
+
+.cabecera{								
+		font-size	: 9pt;
+		text-align	:center;
+		color:#666666;
+		background-color:#EBEBEB;
+		height:20px;
+}
+.colorlinea{
+	border-color: #999999;
+}
